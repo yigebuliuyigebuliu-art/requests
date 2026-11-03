@@ -24,8 +24,8 @@ _codes = {
     # Informational.
     100: ("continue",),
     101: ("switching_protocols",),
-    102: ("processing", "early-hints"),
-    103: ("checkpoint",),
+    102: ("processing",),
+    103: ("early_hints", "early-hints", "checkpoint"),
     122: ("uri_too_long", "request_uri_too_long"),
     200: ("ok", "okay", "all_ok", "all_okay", "all_good", "\\o/", "✓"),
     201: ("created",),
